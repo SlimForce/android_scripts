@@ -1,7 +1,12 @@
 #!/usr/bin/env bash
 
+my_bash_work_path=`pwd -P`
+cd `dirname $0`
 my_bash_script_path=`pwd -P`
-jar_file="$my_bash_script_path/jars/testsign.jar"
+cd $my_bash_work_path
+
+jar_file="$my_bash_script_path/../jars/testsign.jar"
+
 zip_file="$1"
 
 if [ ! -e $zip_file ]; then
