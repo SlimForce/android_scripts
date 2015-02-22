@@ -6,8 +6,12 @@ bash_prompt="android_shell"
 my_bashrc_home="$HOME"
  
 my_bash_work_path=`pwd -P`
-cd `dirname $0`
-my_bash_script_path=`pwd -P`
+if [ -L "$0" ]; then
+	my_bash_script_path=$(readlink $0)
+	my_bash_script_path=$(dirname $my_bash_script_path)
+else
+	my_bash_script_path=$(dirname $0)
+fi
  
 my_bashrc_file=`mktemp /tmp/tmp_bashrc.XXXXXXXXXX`
 rm -f $my_bashrc_file
