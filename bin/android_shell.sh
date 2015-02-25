@@ -30,6 +30,7 @@ echo "alias ls='ls'" > $my_bashrc_file
 echo "alias ll='ls -alF'" >> $my_bashrc_file
 echo "alias android_sign='$my_bash_script_path/sign.sh'" >> $my_bashrc_file
 echo "alias android_clear='$my_bash_script_path/clear.sh'" >> $my_bashrc_file
+echo "alias android_merge='$my_bash_script_path/merge.sh'" >> $my_bashrc_file
 echo "bind '\"\e[A\":history-search-backward'"  >> $my_bashrc_file
 echo "bind '\"\e[B\":history-search-forward'" >> $my_bashrc_file
  
