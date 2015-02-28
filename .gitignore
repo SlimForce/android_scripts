@@ -1,2 +1,3 @@
-sdk
-res
+/sdk
+/res
+/bin/upload.bash
