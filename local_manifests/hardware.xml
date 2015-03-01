@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- hardware -->
-<!--
+
   <remove-project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" />
   <remove-project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" />
   <remove-project path="hardware/intel/common/bd_prov" name="platform/hardware/intel/common/bd_prov" />
@@ -20,7 +20,8 @@
   <remove-project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" />
   <remove-project path="hardware/nvidia/tegra124" name="platform/hardware/nvidia/tegra124" />
   <remove-project path="hardware/samsung_slsi/exynos5" name="SlimRoms/hardware_samsung_slsi_exynos5" />
--->
+
+  <project path="hardware/qcom/common" name="SlimSaber/device_qcom_common" remote="github" revision="lp5.0" />
 
   <remove-project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" />
   <project path="hardware/qcom/display-caf/msm8974" name="SlimSaber/hardware_qcom_display-caf" remote="github" revision="lp5.0-caf-8974" />

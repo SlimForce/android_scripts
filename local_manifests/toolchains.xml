@@ -2,7 +2,6 @@
 <manifest>
 
   <!-- device -->
-<!--
   <remove-project path="device/generic/mips" name="device/generic/mips" />
   <remove-project path="device/generic/mini-emulator-arm64" name="device/generic/mini-emulator-arm64" />
   <remove-project path="device/generic/mini-emulator-armv7-a-neon" name="device/generic/mini-emulator-armv7-a-neon" />
@@ -13,14 +12,12 @@
   <remove-project path="device/generic/x86" name="device/generic/x86" />
   <remove-project path="device/generic/x86_64" name="device/generic/x86_64" />
   <remove-project path="device/sample" name="device/sample" />
--->
-  <!-- toolchains -->
-<!--
+
+  <!-- prebuilts -->
   <remove-project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" />
   <remove-project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
   <remove-project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" />
   <remove-project path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" />
--->
   <remove-project path="prebuilts/gcc/linux-x86/arm/arm-eabi-google-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
   <remove-project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-google-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" />
   <remove-project name="fusionjack/sabermod_arm-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" />
