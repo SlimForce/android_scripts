@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remove-project path="build" name="SlimSaber/android_build" />
+  <project path="build" name="SlimForce/android_build" remote="github" revision="lp5.0" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+
+  <remove-project path="vendor/slim" name="SlimSaber/vendor_slim" />
+  <project path="vendor/slim" name="SlimForce/vendor_slim" remote="github" revision="lp5.0" />
+
+</manifest>

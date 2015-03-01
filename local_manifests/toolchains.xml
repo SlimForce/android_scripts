@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- device -->
+<!--
+  <remove-project path="device/generic/mips" name="device/generic/mips" />
+  <remove-project path="device/generic/mini-emulator-arm64" name="device/generic/mini-emulator-arm64" />
+  <remove-project path="device/generic/mini-emulator-armv7-a-neon" name="device/generic/mini-emulator-armv7-a-neon" />
+  <remove-project path="device/generic/mini-emulator-mips" name="device/generic/mini-emulator-mips" />
+  <remove-project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" />
+  <remove-project path="device/generic/mini-emulator-x86_64" name="device/generic/mini-emulator-x86_64" />
+  <remove-project path="device/generic/qemu" name="device/generic/qemu" />
+  <remove-project path="device/generic/x86" name="device/generic/x86" />
+  <remove-project path="device/generic/x86_64" name="device/generic/x86_64" />
+  <remove-project path="device/sample" name="device/sample" />
+-->
+  <!-- toolchains -->
+<!--
+  <remove-project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" />
+  <remove-project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
+  <remove-project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" />
+  <remove-project path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" />
+-->
+  <remove-project path="prebuilts/gcc/linux-x86/arm/arm-eabi-google-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
+  <remove-project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-google-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" />
+  <remove-project name="fusionjack/sabermod_arm-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" />
+  <remove-project name="fusionjack/sabermod_arm-eabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
+  <project name="SlimSaber/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="github" revision="master" />
+<!--
+  <project name="SlimSaber/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="github" revision="master" />
+-->
+  <project name="SlimSaber/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="github" revision="master" />
+
+</manifest>

@@ -28,6 +28,10 @@ cd $work_dir && echo -e "\n===> $project: " && cd $project && git fetch $remote_
 project=vendor_slim
 cd $work_dir && echo -e "\n===> $project: " && cd $project && git fetch $remote_origin && git fetch $remote_name && git merge $remote_name/$branch_name && git status
 
+branch_name=cm12.0
+project=proprietary_vendor_lge
+cd $work_dir && echo -e "\n===> $project: " && cd $project && git fetch $remote_origin && git fetch $remote_name && git merge $remote_name/$branch_name && git status
+
 exit;
 
 project=frameworks_opt_telephony

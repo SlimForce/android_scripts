@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- hardware -->
+<!--
+  <remove-project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" />
+  <remove-project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" />
+  <remove-project path="hardware/intel/common/bd_prov" name="platform/hardware/intel/common/bd_prov" />
+  <remove-project path="hardware/intel/common/libmix" name="platform/hardware/intel/common/libmix" />
+  <remove-project path="hardware/intel/common/libstagefrighthw" name="platform/hardware/intel/common/libstagefrighthw" />
+  <remove-project path="hardware/intel/common/libva" name="platform/hardware/intel/common/libva" />
+  <remove-project path="hardware/intel/common/libwsbm" name="platform/hardware/intel/common/libwsbm" />
+  <remove-project path="hardware/intel/common/omx-components" name="platform/hardware/intel/common/omx-components" />
+  <remove-project path="hardware/intel/common/utils" name="platform/hardware/intel/common/utils" />
+  <remove-project path="hardware/intel/common/wrs_omxil_core" name="platform/hardware/intel/common/wrs_omxil_core" />
+  <remove-project path="hardware/intel/img/hwcomposer" name="platform/hardware/intel/img/hwcomposer" />
+  <remove-project path="hardware/intel/img/libdrm" name="platform/hardware/intel/img/libdrm" />
+  <remove-project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" />
+  <remove-project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" />
+  <remove-project path="hardware/invensense" name="platform/hardware/invensense" />
+  <remove-project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" />
+  <remove-project path="hardware/nvidia/tegra124" name="platform/hardware/nvidia/tegra124" />
+  <remove-project path="hardware/samsung_slsi/exynos5" name="SlimRoms/hardware_samsung_slsi_exynos5" />
+-->
+
+  <remove-project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" />
+  <project path="hardware/qcom/display-caf/msm8974" name="SlimSaber/hardware_qcom_display-caf" remote="github" revision="lp5.0-caf-8974" />
+
+  <remove-project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="SlimSaber/hardware_qcom_audio-caf" remote="github" revision="lp5.0-caf-8974" />
+
+  <remove-project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" />
+  <project path="hardware/qcom/media-caf/msm8974" name="SlimSaber/hardware_qcom_media-caf" remote="github" revision="lp5.0-caf-8974" />
+
+</manifest>

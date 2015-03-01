@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Phone -->
+
+  <remove-project path="packages/apps/Dialer" name="SlimSaber/packages_apps_Dialer" />
+  <project path="packages/apps/Dialer" name="SlimForce/packages_apps_Dialer" remote="github" revision="lp5.0-caf" />
+
+  <remove-project path="packages/apps/InCallUI" name="SlimSaber/packages_apps_InCallUI" />
+  <project path="packages/apps/InCallUI" name="SlimForce/packages_apps_InCallUI" remote="github" revision="lp5.0-caf" />
+
+  <!-- Calendar -->
+  <remove-project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" />
+  <project path="packages/apps/Calendar" name="MoKee/android_packages_apps_Calendar" remote="github" revision="mkl" />
+
+</manifest>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Phone -->
+  <remove-project path="packages/services/Telephony" name="SlimSaber/packages_services_Telephony" />
+  <project path="packages/services/Telephony" name="SlimForce/packages_services_Telephony" remote="github" revision="lp5.0-caf" />
+</manifest>

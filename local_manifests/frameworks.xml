@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remove-project path="frameworks/base" name="SlimSaber/frameworks_base" />
+  <project path="frameworks/base" name="SlimForce/frameworks_base" remote="github" revision="lp5.0-caf" />
+
+</manifest>
