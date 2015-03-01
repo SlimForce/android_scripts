@@ -16,7 +16,9 @@
   <!-- prebuilts -->
   <remove-project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" />
   <remove-project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
+<!--
   <remove-project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" />
+-->
   <remove-project path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" />
   <remove-project path="prebuilts/gcc/linux-x86/arm/arm-eabi-google-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
   <remove-project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-google-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" />
