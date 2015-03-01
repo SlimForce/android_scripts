@@ -13,13 +13,11 @@
 
   <!-- walpapers -->
   <remove-project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
-  <remove-project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
   <remove-project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" />
 
   <!-- dev -->
   <remove-project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
   <remove-project path="packages/apps/Stk" name="SlimRoms/packages_apps_Stk" />
-  <remove-project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
 
   <!-- tv -->
   <remove-project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" />
