@@ -28,7 +28,11 @@ cd $work_dir && echo "$project -> $owner_name -> $remote_name" && cd $project &&
 project=vendor_slim
 cd $work_dir && echo "$project -> $owner_name -> $remote_name" && cd $project && git remote add $remote_name git@github.com:$owner_name/$project.git && git fetch $remote_name
 
+project=packages_apps_Browser
+cd $work_dir && echo "$project -> $owner_name -> $remote_name" && cd $project && git remote add $remote_name git@github.com:$owner_name/$project.git && git fetch $remote_name
+
 exit;
+
 
 project=frameworks_opt_telephony
 cd $work_dir && echo "$project -> $owner_name -> $remote_name" && cd $project && git remote add $remote_name git@github.com:$owner_name/$project.git && git fetch $remote_name

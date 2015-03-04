@@ -49,7 +49,11 @@ echo "export PATH=$my_bash_script_path/../sdk/platform-tools:$PATH" >> $my_bashr
  
 echo "rm -rf $my_bashrc_dir" >> $my_bashrc_file
 echo "cd $my_bash_work_path" >> $my_bashrc_file
- 
+
+echo "git config --global alias.lg \"log --no-merges --pretty='%Cred%h%Creset - %Cblue%an%Creset - %Cgreen%ci%Creset - %s'\"" >> $my_bashrc_file
+echo "git config --global alias.cp \"cherry-pick\"" >> $my_bashrc_file
+
+
 export HOME="$my_bashrc_dir"
 cd ~
 bash --login

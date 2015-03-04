@@ -7,6 +7,10 @@
   <!-- email -->
   <remove-project path="packages/apps/Exchange" name="SlimSaber/packages_apps_Exchange" />
 
+  <!-- browser -->
+  <remove-project path="packages/apps/Browser" name="SlimRoms/packages_apps_Browser" />
+  <project path="packages/apps/Browser" name="SlimForce/packages_apps_Browser" remote="github" revision="lp5.0" />
+
   <!-- LockClock -->
   <remove-project name="CyanogenMod/android_packages_apps_LockClock" path="packages/apps/LockClock" />
   <remove-project path="external/google" name="CyanogenMod/android_external_google" />
