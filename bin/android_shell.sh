@@ -9,6 +9,7 @@ my_bash_script_file="$0"
 my_bash_work_path=`pwd -P`
 if [ -L "$my_bash_script_file" ]; then
 	my_bash_script_symlink=$(readlink "$my_bash_script_file")
+	cd $(dirname "$0")
 	if [ ! -f "$my_bash_script_symlink" ]; then
 		echo "readlink -f $my_bash_script_file error! $my_bash_script_symlink"
 		exit;
