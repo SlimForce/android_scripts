@@ -8,7 +8,7 @@ my_bashrc_home="$HOME"
 my_bash_script_file="$0"
 my_bash_work_path=`pwd -P`
 if [ -L "$my_bash_script_file" ]; then
-	my_bash_script_symlink=$(readlink -f "$my_bash_script_file")
+	my_bash_script_symlink=$(readlink "$my_bash_script_file")
 	if [ ! -f "$my_bash_script_symlink" ]; then
 		echo "readlink -f $my_bash_script_file error! $my_bash_script_symlink"
 		exit;
@@ -16,9 +16,10 @@ if [ -L "$my_bash_script_file" ]; then
 	my_bash_script_path=$(dirname $my_bash_script_symlink)
 else
 	my_bash_script_path=$(dirname $my_bash_script_file)
-	cd $my_bash_script_path
-	my_bash_script_path=`pwd -P`
 fi
+
+cd $my_bash_script_path
+my_bash_script_path=`pwd -P`
  
 my_bashrc_file=`mktemp /tmp/tmp_bashrc.XXXXXXXXXX`
 rm -f $my_bashrc_file
