@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- PerformanceControl -->
+  <remove-project path="packages/apps/PerformanceControl" name="SlimSaber/android_packages_apps_PerformanceControl" />
+
   <!-- Phone -->
   <remove-project path="packages/apps/CellBroadcastReceiver" name="SlimRoms/packages_apps_CellBroadcastReceiver" />
 
@@ -27,4 +30,8 @@
   <remove-project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" />
   <remove-project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" />
 
+  <!-- music -->
+<!--
+  <remove-project path="packages/apps/Eleven" name="SlimSaber/android_packages_apps_Eleven" />
+-->
 </manifest>

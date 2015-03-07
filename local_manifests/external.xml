@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remove-project path="external/javasqlite" name="platform/external/javasqlite" />
+  <project path="external/javasqlite" name="CyanogenMod/android_external_javasqlite" remote="github" revision="staging/cm-12.0-caf" />
+
+  <remove-project path="external/sqlite" name="platform/external/sqlite" />
+  <project path="external/sqlite" name="CyanogenMod/android_external_sqlite" remote="github" revision="cm-12.0" />
+
+  <remove-project path="external/mdnsresponder" name="platform/external/mdnsresponder" />
+  <project path="external/mdnsresponder" name="SlimForce/android_external_mdnsresponder" remote="github" revision="staging/cm-12.0-caf" />
+
+</manifest>
