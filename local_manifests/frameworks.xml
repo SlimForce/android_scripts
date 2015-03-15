@@ -4,4 +4,7 @@
   <remove-project path="frameworks/base" name="SlimSaber/frameworks_base" />
   <project path="frameworks/base" name="SlimForce/frameworks_base" remote="github" revision="lp5.0-caf" />
 
+  <remove-project path="packages/apps/Settings" name="SlimSaber/packages_apps_Settings" />
+  <project path="packages/apps/Settings" name="SlimForce/packages_apps_Settings" remote="github" revision="lp5.0-caf" />
+
 </manifest>

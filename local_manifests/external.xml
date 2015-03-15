@@ -10,4 +10,7 @@
   <remove-project path="external/mdnsresponder" name="platform/external/mdnsresponder" />
   <project path="external/mdnsresponder" name="SlimForce/android_external_mdnsresponder" remote="github" revision="staging/cm-12.0-caf" />
 
+  <remove-project path="external/tinycompress" name="CyanogenMod/android_external_tinycompress" />
+  <project path="external/tinycompress" name="SaberMod/android_external_tinycompress" remote="github" revision="android-5.0" />
+
 </manifest>

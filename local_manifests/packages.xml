@@ -3,7 +3,7 @@
 
   <!-- PerformanceControl -->
   <remove-project path="packages/apps/PerformanceControl" name="SlimSaber/android_packages_apps_PerformanceControl" />
-
+  
   <!-- Phone -->
   <remove-project path="packages/apps/CellBroadcastReceiver" name="SlimRoms/packages_apps_CellBroadcastReceiver" />
 
