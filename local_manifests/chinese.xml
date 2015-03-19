@@ -10,6 +10,6 @@
 
   <!-- Calendar -->
   <remove-project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" />
-  <project path="packages/apps/Calendar" name="MoKee/android_packages_apps_Calendar" remote="github" revision="mkl" />
+  <project path="packages/apps/Calendar" name="SlimForce/android_packages_apps_Calendar" remote="github" revision="mkl" />
 
 </manifest>
