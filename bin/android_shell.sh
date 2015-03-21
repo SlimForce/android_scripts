@@ -52,8 +52,7 @@ else
 fi
  
 echo "export HOME=$my_bashrc_home" >> $my_bashrc_file
-echo "export PATH=$my_bash_script_path/../sdk/platform-tools:$PATH" >> $my_bashrc_file
-echo "export PATH=$my_bash_script_path/../sdk/build-tools/22.0.0/:$PATH" >> $my_bashrc_file
+echo "export PATH=$my_bash_script_path/../sdk/platform-tools:$my_bash_script_path/../sdk/build-tools/22.0.0:$my_bash_script_path/../res/dex2jar:$my_bash_script_path/../res/gradle/bin:$PATH" >> $my_bashrc_file
 
 echo "rm -rf $my_bashrc_dir" >> $my_bashrc_file
 echo "cd $my_bash_work_path" >> $my_bashrc_file
