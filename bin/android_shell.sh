@@ -32,6 +32,11 @@ export GIT_SSH="$HOME/.git_android_ssh.sh"
 export NDK="$sdir/ndk"
 export SDK="$sdir/sdk"
  
+my_sbin="$sdir/sbin"
+if [[ "$OSTYPE" == "darwin"* ]]; then
+	my_sbin="$sdir/sbin/osx"
+fi
+
 echo "#!/bin/sh" > $GIT_SSH
 echo "ssh -i \"$git_pem\" \"\$@\"" >> $GIT_SSH
 chmod 755 $GIT_SSH
@@ -56,7 +61,7 @@ else
 fi
 
 echo "export HOME=$my_bashrc_home" >> $my_bashrc_file
-echo "export PATH=$sdir/sbin:$SDK/platform-tools:$SDK/build-tools/22.0.0:$sdir/res/dex2jar:$sdir/res/gradle/bin:$PATH" >> $my_bashrc_file
+echo "export PATH=$my_sbin:$SDK/platform-tools:$SDK/build-tools/22.0.0:$sdir/res/dex2jar:$sdir/res/gradle/bin:$PATH" >> $my_bashrc_file
 
 echo "rm -rf $my_bashrc_dir" >> $my_bashrc_file
 echo "cd $my_bash_work_path" >> $my_bashrc_file
